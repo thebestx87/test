@@ -191,7 +191,52 @@ left:70px
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
 }
+@media (max-width:700px){
+    .frame{
+        margin: 30px 100px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    
+    }
+    .korean-coment{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .english-coment{
+        font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    font-style: italic;
+        }
+    .name{
+        background-color: pink;
+        }
+    .name:hover{
+        background-color: transparent;
+    }
+    .type1{
+        background-color: aquamarine;
+    }
+    .thumbnail{
+        width: 50%;
 
-@media ( max-width: 768px ) {
+    }
+    .article-info{
+        margin:0px 30px
+    }
+    .article-name{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 20px;
+        margin-top: 0px;
+        }
+}
    
     
