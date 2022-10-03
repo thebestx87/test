@@ -1,12 +1,12 @@
 
 body{
-    background-color:#FDEFF2
+    background-color:white
 }
 
 p{font-family: 'Noto Sans KR', sans-serif;}
 
 .frame{
-margin: 30px 300px;
+margin: 0 300px;
 display: flex;
 flex-direction: column;
 }
@@ -16,6 +16,7 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 li{
@@ -26,6 +27,7 @@ li{
 }
 ul{
     margin: 0;
+    padding: 0;
 }
 .site-name{
     margin: 0;
@@ -37,7 +39,7 @@ ul{
 .nav-menu{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     font-style: bold;
 }
 
@@ -46,7 +48,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color:white;
+    color:red;
     transition: 0.3;
 }
 
@@ -150,15 +152,74 @@ left:70px
     text-align: center;
 }
 
+/*outpage*/
+.outpagephoto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.outpage-info{
+    text-align: center;
+}
+.outpagephoto img{
+width:300px;
+}
+.outpagephoto2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+  
+}
+.outpagephoto2 img {
+    width: 600px;
+}
+
+.outpagephoto3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+}
+.outpagephoto3 img{
+    width: 600px;
+}
+
+/*otherpage*/
+.past p{
+    text-align: center;
+}
+.pastworks{
+    font-size: 30px;
+    text-align: center;
+    color:black;
+}
+.movie1{
+    max-width: 80%;
+    display: block;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+/*이메일 보내기*/
+.contactme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 /*footer*/
 .footer{
     display: flex;
     flex-direction: column;
    align-items: center;
    margin-bottom: 200px;
+ 
    }
-   .contact{
+.contact{
        font-family: 'Noto Sans KR', sans-serif;
        font-weight: 700;
        font-size: 50px;
@@ -175,7 +236,7 @@ left:70px
    }
    
    .links>a:hover{
-       color:white
+       color:red;
    }
    .profile{
        display: flex;
@@ -187,6 +248,7 @@ left:70px
    #profile-photo{
    width: 400px;
    margin-right: 60px;
+   border: 1px solid black;
    }
    .about>h2{
        margin: 0;
@@ -194,58 +256,39 @@ left:70px
        font-size: 35px;
    }
    
-@media (max-width:700px){
-    .frame{
-        margin: 30px 100px;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .dashboard{
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-    
-    }
-    .korean-coment{
-        font-family: 'Noto Sans KR', sans-serif;
-        font-weight: 700;
-        font-size: 20px;
-    }
-    
-    .english-coment{
-        font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    font-style: italic;
-        }
-    .name{
-        background-color: pink;
-        }
-    .name:hover{
-        background-color: transparent;
-    }
-    .type1{
-        background-color: aquamarine;
-    }
-    .thumbnail{
-        width: 50%;
+@media screen and (max-width:670px) {
 
-    }
-    .article-info{
-        margin:0px 30px
-    }
-    .article-name{
-        font-family: 'Noto Sans KR', sans-serif;
-        font-size: 20px;
-        margin-top: 0px;
-        }
-        .magazine{
-            display: flex;
-            flex-direction: column;
-            margin-top: 100px;
-            width: 400px;
-               }
+ .thumbnail{
+        width: 50%}
+        
+.article-name{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 24px;
+            margin-top: 0px;
+            }
+
+     .korean-coment{
+                font-family: 'Noto Sans KR', sans-serif;
+                font-weight: 700;
+                font-size: 30px;}
+  .profile{
+                   
+                    flex-direction: column;
+                            text-align: center;  
+                            align-items: center;  }
+
+    #profile-photo{
+                    width: 400px;
+                    margin:0;}
+
+/*contact*/
+
+
+.footer{
+text-align: center;}
+
+.footer>p {
+text-align: center;
 }
-   
-    
+
+}
