@@ -292,10 +292,8 @@ width:300px;
             margin-top: 0px;
             }
 }
-    
-
-    
-   @media screen and (max-width: 480px){
+/*모바일*/
+@media screen and (max-width: 480px){
 
     .frame{ margin: 20px; }
     .nav{ display: flex;
@@ -337,56 +335,57 @@ width:300px;
                border: 1px solid black;
                 }
             
-                .about>h2{
-                    margin: 0;
-                    margin-top: 100px;
-                    font-family: 'Noto Sans KR', sans-serif;
-                    font-size: 20px;
-                }
-                p{font-size: 12px;}
-    #tools{flex-direction: row; }
-    .contact{font-size: 20px;}
+.about>h2{
+     margin: 0;
+     margin-top: 100px;
+     font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+ }
+ p{font-size: 12px;}
+ #tools{flex-direction: row; }
+.contact{font-size: 20px;}
 
 /***magazine*/
 
-    .magazine{
+.magazine{
         display: flex;
         flex-direction: column;
         margin-top: 100px;
         width: 400px;
        
            }
-    .magazine-info{
+.magazine-info{
         font-family: 'Noto Sans KR', sans-serif;
         text-align: center;
     }
    /*past*/ 
-    .past p{
+.past p{
         text-align: center;
     }
-    .pastworks{
+.pastworks{
         font-size: 30px;
         text-align: center;
         color:black;
-    }
+}
     /*outpage*/
   .outpagephoto img{
         width:200px;
         margin: 0;
-        }
+}
  .outpagephoto1 img{
-            width:200px;
-            margin: 0;
-            } 
+     width:200px;
+     margin: 0;
+} 
  .outpagephoto2 img{
-                width:200px;
-                margin: 0;
-                }
+     width:200px;
+     margin: 0;
+ }
  .outpagephoto3 img{
-                    width:200px;
-                    margin: 0;
-                    }
-   .outpage-info{
+    width:200px;
+    margin: 0;
+ }
+   .outpage-info
+   {
    text-align: center;
    margin: 0;
     }
