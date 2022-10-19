@@ -301,7 +301,7 @@ width:300px;
     .nav{ display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: 20px;   
+        margin-top: 0;   
     align-items: center;}
         li{
             display: inline;
