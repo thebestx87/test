@@ -1,15 +1,16 @@
 
 body{
-    background-color:white
+    background-color:white;
+   font-family: 'Noto Sans KR', sans-serif;
 }
 
 p{font-family: 'Noto Sans KR', sans-serif;}
 
 .frame{
-margin: 0 300px;
-display: flex;
-flex-direction: column;
-}
+    margin: 0 300px;
+    display: flex;
+    flex-direction: column;
+    }
 /*nav*/
 
 .nav{
@@ -33,12 +34,11 @@ ul{
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 30px;
-    color: darkgoldenrod;
     font-style: bold;
 }
 .nav-menu{
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 20px;
     font-style: bold;
 }
@@ -84,11 +84,11 @@ font-style: italic;
 .recent-menu{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:700;
-    font-size: 20px;
+    font-size: 50px;
     color:gray;
     font-style: bold;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 
@@ -159,6 +159,12 @@ left:70px
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.outpagephoto1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 .outpage-info{
     text-align: center;
@@ -166,6 +172,9 @@ left:70px
 .outpagephoto img{
 width:300px;
 }
+.outpagephoto1 img{
+    width:300px;
+    }
 .outpagephoto2{
     display: flex;
     flex-direction: row;
@@ -189,7 +198,7 @@ width:300px;
     width: 600px;
 }
 
-/*otherpage*/
+/*pastworks*/
 .past p{
     text-align: center;
 }
@@ -255,40 +264,130 @@ width:300px;
        font-family: 'Noto Sans KR', sans-serif;
        font-size: 35px;
    }
-   
-@media screen and (max-width:670px) {
 
- .thumbnail{
-        width: 50%}
-        
-.article-name{
+   @media screen and (max-width: 768px) {
+    .frame{ margin: 20px; }
+    .nav{ display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;  
+    align-items: center; }
+        li{
+            display: inline;
+            align-self: center;
+            margin: 0;
+            margin-left:0px;
+        }
+        .korean-coment{
             font-family: 'Noto Sans KR', sans-serif;
-            font-size: 24px;
+            font-weight:700;
+            font-size: 20px;
+        }
+        .thumbnail{
+            width: 200px;
+        }
+        .article-name{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 20px;
             margin-top: 0px;
             }
-
-     .korean-coment{
-                font-family: 'Noto Sans KR', sans-serif;
-                font-weight: 700;
-                font-size: 30px;}
-  .profile{
-                   
-                    flex-direction: column;
-                            text-align: center;  
-                            align-items: center;  }
-
-    #profile-photo{
-                    width: 400px;
-                    margin:0;}
-
-/*contact*/
-
-
-.footer{
-text-align: center;}
-
-.footer>p {
-text-align: center;
 }
+    
 
-}
+    
+   @media screen and (max-width: 480px){
+
+    .frame{ margin: 20px; }
+    .nav{ display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;   
+    align-items: center;}
+        li{
+            display: inline;
+            align-self: center;
+            margin: 0;
+            margin-left:0px;
+        }
+        .korean-coment{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight:700;
+            font-size: 20px;
+        }
+        .thumbnail{
+            width: 200px;
+        }
+        .article-name{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 20px;
+            margin-top: 0px;}
+
+            .profile{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                margin: 0;
+                margin-top: 20px;
+                align-items: center;
+            
+            }
+            #profile-photo{
+                width: 200px;
+               border: 1px solid black;
+                }
+            
+                .about>h2{
+                    margin: 0;
+                    margin-top: 100px;
+                    font-family: 'Noto Sans KR', sans-serif;
+                    font-size: 20px;
+                }
+                p{font-size: 12px;}
+    #tools{flex-direction: row; }
+    .contact{font-size: 20px;}
+
+/***magazine*/
+
+    .magazine{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        width: 400px;
+       
+           }
+    .magazine-info{
+        font-family: 'Noto Sans KR', sans-serif;
+        text-align: center;
+    }
+   /*past*/ 
+    .past p{
+        text-align: center;
+    }
+    .pastworks{
+        font-size: 30px;
+        text-align: center;
+        color:black;
+    }
+    /*outpage*/
+  .outpagephoto img{
+        width:200px;
+        margin: 0;
+        }
+ .outpagephoto1 img{
+            width:200px;
+            margin: 0;
+            } 
+ .outpagephoto2 img{
+                width:200px;
+                margin: 0;
+                }
+ .outpagephoto3 img{
+                    width:200px;
+                    margin: 0;
+                    }
+   .outpage-info{
+   text-align: center;
+   margin: 0;
+    }
+    }
