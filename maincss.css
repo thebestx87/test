@@ -1,0 +1,85 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100vh;
+background-color:black;
+margin: 0;
+}
+
+h1 {font-family: 'Noto Serif KR', serif;
+       font-size: 50px;
+    min-width:11px;
+    white-space: nowrap;
+    margin: 0;
+    position: fixed;
+    color: transparent;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  h1::before {
+    content: "안녕하세요 김현숙입니다.";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    border-right: 1px solid white;
+    animation: typing 5s steps(22) infinite;
+  }
+a{ color: white;
+    text-decoration: none;
+ }
+ .index{
+    text-align: center;
+ }
+
+  
+  @keyframes typing{
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+  */
+
+  @media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 20px;
+        min-width:11px;
+        white-space: nowrap;
+        margin: 0;
+        position: fixed;
+        color: transparent;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        
+} 
+}
+
+@media screen and (max-width: 480px){
+    h1 {
+        font-size: 20px;
+        min-width:11px;
+        white-space: nowrap;
+        margin: 0;
+        position: fixed;
+        color: transparent;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+
+}
