@@ -52,10 +52,7 @@ a{ color: white;
       width: 0%;
     }
   }
-  */
-
-  @media screen and (max-width: 768px) {
-
+  @media screen and (max-width: 480px){
     h1 {
         font-size: 20px;
         min-width:11px;
@@ -65,21 +62,5 @@ a{ color: white;
         color: transparent;
         top:50%;
         left:50%;
-        transform: translate(-50%, -50%);
-        
-} 
-}
-
-@media screen and (max-width: 480px){
-    h1 {
-        font-size: 20px;
-        min-width:11px;
-        white-space: nowrap;
-        margin: 0;
-        position: fixed;
-        color: transparent;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-
-}
+        transform: translate(-50%, -50%);}
+  }

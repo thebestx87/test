@@ -75,7 +75,7 @@ font-style: italic;
 color: white;
     }
 
-}
+
 /*recentworks*/
 .recent-menu{
     font-family: 'Noto Sans KR', sans-serif;
@@ -88,6 +88,66 @@ color: white;
 
 }
 
+section{
+    height: 700px;
+    background: url(/image/index_bg_1.jpg) fixed;
+}
+
+.photo{
+    position: absolute;
+    top: 850px;
+    right: 300px;
+}
+
+.name1{
+    font-size:50px;
+    width: 150px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    top: 850px;
+    left: 310px;
+    text-align: left;
+    animation: slide 1s ease-out;
+}
+.coment1{
+    font-size: 15px;
+    width: 1000px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    top:1200px;
+    left: 310px;
+
+}
+button{
+font-size: 15px;
+color:black;
+background-color:white ;
+border-radius:10px;
+position: absolute;
+ top:1300px;
+ left: 700px;
+}
+.button2
+{font-size: 15px;
+    color:black;
+    background-color:white ;
+    border-radius:10px;
+    position: absolute;
+     top: 1800px;
+     right: 700px;
+
+}
+@keyframes slide{
+    from{left: -100px;
+opacity: 0;
+    }
+    to{
+left: 350px;
+opacity: 1;
+    }
+}
 
 /*recent works*/
 
@@ -397,4 +457,6 @@ width:300px;
    text-align: center;
    margin: 0;
     }
+
+    
     }
