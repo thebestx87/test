@@ -1,0 +1,177 @@
+body{
+    background-color: black;
+}
+
+.frame{
+    margin: 0,20px;
+    display: flex;
+    flex-direction: column;
+    }
+
+/*nav*/
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  margin: 30px;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.site-name{
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-style: bold;
+}
+.nav-menu{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: bold;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:gray;
+    transition: 0.3;
+}
+
+.magazine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto; height: auto;
+
+ }
+
+.magazine-info{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/*outpage*/
+.outpagephoto{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+.outpagephoto1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.outpage-info{
+    text-align: center;
+}
+.outpagephoto img{
+width:300px;
+}
+.outpagephoto1 img{
+    width:300px;
+    }
+.outpagephoto2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+  
+}
+.outpagephoto2 img {
+    width: 600px;
+}
+
+.outpagephoto3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+}
+.outpagephoto3 img{
+    width: 600px;
+}
+
+/*pastworks*/
+.past p{
+    text-align: center;
+    color: white;
+}
+.pastworks{
+    font-size: 30px;
+    text-align: center;
+    color:white;}
+
+.contact{
+       font-family: 'Noto Sans KR', sans-serif;
+       font-weight: 700;
+       font-size: 50px;
+       color:white;
+       border-bottom: 2px solid black;
+       margin-bottom: 10px;
+   }
+   
+   .links>a{
+       font-family: 'Noto Sans KR', sans-serif;
+       color:black;
+       font-size: 30px;
+       font-weight: 400;
+   }
+   
+   .links>a:hover{
+       color:red;
+
+       /*info*/
+   }
+   .profile{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: flex-start;
+       margin: 100px 100px;
+   }
+   #profile-photo{
+   width: 400px;
+   margin-right: 60px;
+   border: 1px solid black;
+   }
+   .pro-info{
+    text-align: center;
+    color: white;
+   }
+   .about>h2{
+       margin: 0;
+       font-family: 'Noto Sans KR', sans-serif;
+       font-size: 35px;
+       color: white;
+       text-align: center;
+   }
+   #tools{  
+    text-align: center;
+   }
+   @media screen and (max-width: 480px){
+
+
+
+
+   }

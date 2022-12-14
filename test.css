@@ -2,6 +2,12 @@ body{
     margin:0;
     background-color:black; }
 
+    *{margin: 0;}
+.frame{
+        margin: 0 ;
+        display: flex;
+        flex-direction: column;
+        }
 .nav{
     display: flex;
     flex-direction: row;
@@ -41,14 +47,20 @@ a:hover{
     transition: 0.3;
 
 }
-
+.recent-menu{
+    color: antiquewhite;
+    font-size: 30px;
+    position: absolute;
+    top: 530px;
+    left:200px;
+}
 /*dashboard*/
 .dashboard{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 200px;
-   margin-bottom: 100px;
+   margin-bottom: 200px;
 
 }
 .korean-coment{
@@ -72,19 +84,9 @@ a:hover{
     height:600px;
     background: url(/image/starbg.jpg) fixed;
 }
-.section1::before{
-    content:'' ;
-    background:linear-gradient(to right,black,transparent);
-    position: absolute;
-    left: 0;
-    height: 65%;
-    width: 80%;
-
-}
-
 .photo{
     position: absolute;
-    top: 680px;
+    top: 650px;
     right: 400px;
 }
 
@@ -94,7 +96,7 @@ a:hover{
     color: white;
     font-family: sans-serif;
     position: absolute;
-    top:800px;
+    top:900px;
     left: 300px;
     text-align: left;
     animation: slide 1s;
@@ -106,7 +108,7 @@ a:hover{
     color: white;
     font-family: sans-serif;
     position: absolute;
-    top:900px;
+    top:880px;
     left: 300px;
     text-align: right;
     animation: slide 1s;
@@ -128,8 +130,8 @@ button{
 .photo2{
     width: 550px;
     position: absolute;
-    top:1350px;
-    left:3050px;
+    top:1320px;
+    left:350px;
 
 }
 .mainh1_2{
@@ -138,7 +140,7 @@ button{
     color: white;
     font-family: sans-serif;
     position: absolute;
-    top:1300px;
+    top:1320px;
     left:1000px;
     text-align: left;
 }
@@ -160,6 +162,20 @@ button{
      top:1600px;
     left: 1000px;  
 }
+
+.more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+    background-color: black;
+    margin-top: 50px;
+}
+.morephoto1{
+   width: 500px;
+   height: 450px;
+}
+
 @keyframes slide{
     from{left: -100px;
 opacity: 0;
@@ -168,4 +184,170 @@ opacity: 0;
 left: 300px;
 opacity: 1;
     }
+}
+
+@media screen and (max-width: 480px){
+.body{
+    margin:0
+}
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    li{
+        display: inline;
+        align-self: center;
+        margin: 0;
+        margin-left: 0;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    .site-name{
+        margin: 0;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 30px;
+        font-style: bold;
+    }
+    .nav-menu{
+        font-family: 'Noto Sans KR', sans-serif;
+                font-size: 20px;
+        font-style: bold;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color:white;
+        transition: 0.3;
+    
+    }
+       /*dashboard*/
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        }
+    .korean-coment{
+        margin: 0;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        color: white;
+       
+    }
+    
+    .english-coment{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        font-style: italic;
+        color: white;
+    }
+    
+    /*section1*/
+    .section1{
+        height:300px;
+        background: url(/image/starbg.jpg) fixed;
+    }
+    .photo{
+        position: absolute;
+        width: 300px;
+       left:80px;
+       top:650px;
+    }
+    
+    .mainh1_1{
+        font-size: 15px;
+        color: white;
+        font-family: sans-serif;
+        position: absolute;
+        top:880px;
+        left: 80px;
+        
+        
+    }
+    .mainh2_1{
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        top:900px;
+        left: 80px;
+        
+      
+    }
+    button{
+        font-size: 15px;
+        color:black;
+        background-color:white ;
+        border-radius:5px;
+        position: absolute;
+        top:1000px;
+        left: 650px;
+    }
+    /*section2*/
+    .section2{
+        height:550px;
+        background: url(/image/index_bg_2.jpg);
+    }
+    .photo2{
+        width: 550px;
+        position: absolute;
+        top:1350px;
+        left:350px;
+    
+    }
+    .mainh1_2{
+        font-size: 50px;
+        width: 300px;
+        color: white;
+        font-family: sans-serif;
+        position: absolute;
+        top:1300px;
+        left:1000px;
+        text-align: left;
+    }
+    .mainh2_2{
+        font-size: 15px;
+        width: 1000px;
+        color: white;
+        font-family: sans-serif;
+        position: absolute;
+        top:1550px;
+        left:1000px;
+    
+    }
+    .button2{font-size:15px;
+        color:black;
+        background-color:white ;
+        border-radius: 5px;
+        position: absolute;
+         top:1600px;
+        left: 1000px;  
+    }
+    
+    .more{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        height: 500px;
+        background-color: black;
+        margin-top: 50px;
+    }
+    .morephoto1{
+       width: 500px;
+       height: 450px;
+    }
+
+
+
+
+
+
 }
