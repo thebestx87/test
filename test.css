@@ -47,13 +47,6 @@ a:hover{
     transition: 0.3;
 
 }
-.recent-menu{
-    color: antiquewhite;
-    font-size: 30px;
-    position: absolute;
-    top: 530px;
-    left:200px;
-}
 /*dashboard*/
 .dashboard{
     display: flex;

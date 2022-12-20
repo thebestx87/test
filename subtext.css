@@ -1,15 +1,17 @@
 body{
+    margin: 0;
     background-color: black;
+    
 }
 
 .frame{
-    margin: 0,20px;
-    display: flex;
+        display: flex;
     flex-direction: column;
     }
 
 /*nav*/
 
+/*nav*/
 .nav{
     display: flex;
     flex-direction: row;
@@ -50,25 +52,13 @@ a:hover{
     transition: 0.3;
 }
 
-.magazine{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: auto; height: auto;
 
- }
 
-.magazine-info{
-    font-family: 'Noto Sans KR', sans-serif;
-    text-align: center;
-    color: white;
-}
-
-/*outpage*/
+/*외주작업*/
 .outpagephoto{
     display: flex;
     flex-direction: row;
-   align-items: center;
+   justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
    
@@ -76,12 +66,14 @@ a:hover{
 .outpagephoto1{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .outpage-info{
     text-align: center;
+    color:white;
 }
 .outpagephoto img{
 width:300px;
@@ -90,8 +82,10 @@ width:300px;
     width:300px;
     }
 .outpagephoto2{
+    
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
     width: auto;
@@ -104,6 +98,7 @@ width:300px;
 .outpagephoto3{
     display: flex;
     flex-direction: row;
+        justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
     width: auto;
