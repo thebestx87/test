@@ -76,7 +76,7 @@ a:hover{
 /*section1*/
 .section1{
     height:600px;
-    background: url(/image/starbg.jpg) fixed;
+    background: url(../image/starbg.jpg) fixed;
 }
 .photo{
     position: absolute;
@@ -119,7 +119,7 @@ button{
 /*section2*/
 .section2{
     height:500px;
-    background: url(/image/index_bg_2.jpg);
+    background: url(../image/index_bg_2.jpg);
 }
 .photo2{
     width: 550px;
